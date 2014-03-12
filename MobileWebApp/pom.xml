@@ -13,9 +13,9 @@
     <!-- Convenience property to set the GWT version -->
     <gwtVersion>2.6.0</gwtVersion>
 
-    <!-- GWT needs at least java 1.6 -->
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
+    <!-- GWT supports java 1.7 -->
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
 
     <!-- GAE properties -->
     <gae.version>1.7.1</gae.version>
@@ -170,8 +170,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.4</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
         <dependencies>
           <!-- Need to run the RF Validation tool. This works on both the command-line
@@ -188,8 +188,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <!-- TODO: Update version to 2.6.0 once gwt-maven-plugin 2.6.0 final is released (post-GWT 2.6.0) -->
-        <version>2.6.0-rc3</version>
+        <version>2.6.0</version>
         <dependencies>
           <dependency>
             <groupId>com.google.gwt</groupId>
