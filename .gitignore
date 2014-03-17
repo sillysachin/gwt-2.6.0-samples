@@ -1,0 +1,11 @@
+/RemoteSystemsTempFiles
+/.metadata
+/Validation/.settings
+/Validation/*.classpath
+/Validation/*.project
+/MobileWebApp/.project
+/MobileWebApp/.classpath
+/MobileWebApp/.settings
+/DynaTableRf/*.classpath
+/DynaTableRf/*.project
+/DynaTableRf/*
