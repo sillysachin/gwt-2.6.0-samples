@@ -47,4 +47,8 @@
   <source path='client'/>
   <source path='presenter'/>
   <source path='shared'/>
+   <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+  
 </module>

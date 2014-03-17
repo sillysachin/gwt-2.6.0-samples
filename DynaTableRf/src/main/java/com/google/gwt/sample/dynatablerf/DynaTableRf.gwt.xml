@@ -40,4 +40,8 @@
   <entry-point class='com.google.gwt.sample.dynatablerf.client.DynaTableRf' />
   
   <set-configuration-property name="CssResource.obfuscationPrefix" value="empty" />
+  
+   <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
 </module>
