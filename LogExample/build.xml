@@ -40,8 +40,8 @@
       <classpath>
         <pathelement location="src"/>
         <path refid="project.class.path"/>
-        <pathelement location="../../validation-api-1.0.0.GA.jar" />
-        <pathelement location="../../validation-api-1.0.0.GA-sources.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
       </classpath>
       <!-- add jvmarg -Xss16M or similar if you see a StackOverflowError -->
       <jvmarg value="-Xmx256M"/>
@@ -58,8 +58,8 @@
       <classpath>
         <pathelement location="src"/>
         <path refid="project.class.path"/>
-        <pathelement location="../../validation-api-1.0.0.GA.jar" />
-        <pathelement location="../../validation-api-1.0.0.GA-sources.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
       </classpath>
       <jvmarg value="-Xmx256M"/>
       <arg value="-startupUrl"/>
@@ -76,10 +76,10 @@
     <java failonerror="true" fork="true" classname="com.google.gwt.dev.codeserver.CodeServer">
       <classpath>
         <pathelement location="src"/>
-        <pathelement location="../../gwt-codeserver.jar" />
+        <pathelement location="${gwt.sdk}/gwt-codeserver.jar" />
         <path refid="project.class.path"/>
-        <pathelement location="../../validation-api-1.0.0.GA.jar" />
-        <pathelement location="../../validation-api-1.0.0.GA-sources.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
       </classpath>
       <jvmarg value="-Xmx256M"/>
       <arg value="com.google.gwt.sample.logexample.LogExample"/>
@@ -120,8 +120,8 @@ Test targets suppressed because -junit argument was not specified when running w
         <pathelement location="src" />
         <pathelement location="test" />
         <path refid="project.class.path" />
-        <pathelement location="../../validation-api-1.0.0.GA.jar" />
-        <pathelement location="../../validation-api-1.0.0.GA-sources.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
         <pathelement location="path_to_the_junit_jar" />
       </classpath>
       <batchtest todir="reports/htmlunit.dev" >
@@ -144,8 +144,8 @@ Test targets suppressed because -junit argument was not specified when running w
         <pathelement location="src" />
         <pathelement location="test" />
         <path refid="project.class.path" />
-        <pathelement location="../../validation-api-1.0.0.GA.jar" />
-        <pathelement location="../../validation-api-1.0.0.GA-sources.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar" />
+        <pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar" />
         <pathelement location="path_to_the_junit_jar" />
       </classpath>
       <batchtest todir="reports/htmlunit.prod" >
